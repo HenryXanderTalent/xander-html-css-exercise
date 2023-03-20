@@ -71,3 +71,16 @@ html {
     color: var(--aqua);
     display: block;
   }
+
+  #contact {
+    text-align: center;
+    background-color: var(--dkblue);
+    
+  }
+
+  #contact article {
+    width: 750px;
+    margin: 0 auto;
+    
+    
+  }
