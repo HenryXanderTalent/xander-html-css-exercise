@@ -212,6 +212,35 @@ html {
     width: 100%;
   }
 
+  @media screen and (min-width: 550px) {
+    #projects article {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        gap: 1rem;
+    }
+
+    #projects ul {
+        justify-content: flex-end;
+    }
+
+    .image {
+        grid-column: 1 / 7;
+    }
+
+    .text {
+        grid-column: 5 / 11;
+    }
+
+    .image, .text {
+        grid-row: 1 / 2;
+    }
+  }
+  
+  .text {
+    order: 2;
+    text-align: right;
+  }
+
   /*footer*/
 
   footer {
